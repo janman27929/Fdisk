@@ -1,0 +1,120 @@
+Disk /dev/sdb: 536.9 GB, 536870912000 bytes, 1048576000 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk label type: dos
+Disk identifier: 0x20dd2f4a
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sdb1            2048  1048575999   524286976   83  Linux
+
+Disk /dev/sdc: 536.9 GB, 536870912000 bytes, 1048576000 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk label type: dos
+Disk identifier: 0x71c409e6
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sdc1            2048  1048575999   524286976   83  Linux
+
+Disk /dev/sdi: 214.7 GB, 214748364800 bytes, 419430400 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk label type: dos
+Disk identifier: 0xd038cf52
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sdi1            2048   419430399   209714176   83  Linux
+
+Disk /dev/sda: 161.1 GB, 161061273600 bytes, 314572800 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk label type: dos
+Disk identifier: 0x000bf908
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sda1   *        2048     4196351     2097152   83  Linux
+/dev/sda2         4196352   314572799   155188224   8e  Linux LVM
+
+Disk /dev/sde: 536.9 GB, 536870912000 bytes, 1048576000 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk label type: dos
+Disk identifier: 0xf7a41049
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sde1            2048  1048575999   524286976   83  Linux
+
+Disk /dev/sdh: 214.7 GB, 214748364800 bytes, 419430400 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk label type: dos
+Disk identifier: 0x6389201b
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sdh1            2048   419430399   209714176   83  Linux
+
+Disk /dev/sdf: 536.9 GB, 536870912000 bytes, 1048576000 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk label type: dos
+Disk identifier: 0x0368fccc
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sdf1            2048  1048575999   524286976   83  Linux
+
+Disk /dev/sdd: 536.9 GB, 536870912000 bytes, 1048576000 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk label type: dos
+Disk identifier: 0xb6cc1b7e
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sdd1            2048  1048575999   524286976   83  Linux
+
+Disk /dev/sdg: 214.7 GB, 214748364800 bytes, 419430400 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk label type: dos
+Disk identifier: 0x55c746de
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sdg1            2048   419430399   209714176   83  Linux
+
+Disk /dev/mapper/VG00-LV00: 53.7 GB, 53687091200 bytes, 104857600 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/mapper/VG00-LV01: 4294 MB, 4294967296 bytes, 8388608 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/mapper/VG00-LV04: 53.7 GB, 53687091200 bytes, 104857600 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/mapper/VG00-LV03: 2147 MB, 2147483648 bytes, 4194304 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/mapper/VG00-LV02: 10.7 GB, 10737418240 bytes, 20971520 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+

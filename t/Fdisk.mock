@@ -1,0 +1,35 @@
+mock_sub => sub {
+return <<'EOF';
+mock_data
+EOF
+},
+
+mock_heredoc => <<'EOF',
+EOF
+
+mock_str_base => 'base_str',
+
+mock_array_ref_ => ['base_str'],
+
+mock_hash_ref_ => {str => 'base_str'},
+
+ENV_PASS_01 => {
+  HOST          => 'my_host',
+  IP            => '10.88.99.11',
+  SID           => 'my_sid_test',
+  SOURCE        => 'source_host',			 
+  TSM_SERVER    => 'my_tsm_server',
+  ASM_DISK_DATA => ' SDB sdc sdd sde sdf ',
+  ASM_DISK_FRA  => ' sdg sdh   sdi  ',
+},
+
+# will fail on verify_disks for ASM_DISK_FRA
+ENV_FAIL_01 => {
+  HOST          => 'my_host',
+  IP            => '10.88.99.11',
+  SID           => 'my_sid_test',
+  SOURCE        => 'source_host',			 
+  TSM_SERVER    => 'my_tsm_server',
+  ASM_DISK_DATA => ' SDB sdc sdd sde sdf ',
+  ASM_DISK_FRA  => ' sdg sdh   sdj  ',
+},

@@ -1,0 +1,31 @@
+export HOST=cpkup2pfzom.rxcorp.com
+export IP=10.118.140.241
+export SID=P2PFZOM
+export SOURCE=pnc1fomdmz25			 
+export TSM_SERVER=CPKSPPDB03
+export ASM_DISK_DATA='sdb sdc sdd sde sdf'
+export ASM_DISK_FRA='sdg sdh sdi'
+
+ssh -Tq $HOST <<EOF_SSH
+(echo o; echo n; echo p; echo 1; echo ; echo; echo w) | fdisk /dev/sdb
+(echo o; echo n; echo p; echo 1; echo ; echo; echo w) | fdisk /dev/sdc
+(echo o; echo n; echo p; echo 1; echo ; echo; echo w) | fdisk /dev/sdd
+(echo o; echo n; echo p; echo 1; echo ; echo; echo w) | fdisk /dev/sde
+(echo o; echo n; echo p; echo 1; echo ; echo; echo w) | fdisk /dev/sdf
+(echo o; echo n; echo p; echo 1; echo ; echo; echo w) | fdisk /dev/sdg
+(echo o; echo n; echo p; echo 1; echo ; echo; echo w) | fdisk /dev/sdh
+(echo o; echo n; echo p; echo 1; echo ; echo; echo w) | fdisk /dev/sdi
+(echo o; echo n; echo p; echo 1; echo ; echo; echo w) | fdisk /dev/sdj
+oracleasm createdisk DATA000 /dev/sdb1
+oracleasm createdisk DATA001 /dev/sdc1
+oracleasm createdisk DATA002 /dev/sdd1
+oracleasm createdisk DATA003 /dev/sde1
+oracleasm createdisk DATA004 /dev/sdf1
+oracleasm createdisk FRA000 /dev/sdg1
+oracleasm createdisk FRA001 /dev/sdh1
+oracleasm createdisk FRA002 /dev/sdi1
+chown -R oracle:dba /dev/oracleasm/disks
+EOF_SSH
+
+
+
